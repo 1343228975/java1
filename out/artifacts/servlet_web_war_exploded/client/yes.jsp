@@ -1,0 +1,43 @@
+﻿<%--
+  Created by IntelliJ IDEA.
+  User: 赵伦
+  Date: 2021-12-22
+  Time: 18:42
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>电子书城</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script type="text/javascript" src="js/my.js"></script>
+</head>
+
+<body class="main">
+<jsp:include page="head.jsp" />
+<jsp:include page="menu_search.jsp" />
+
+<div id="divcontent">
+    <table width="850px" border="0" cellspacing="0">
+        <tr>
+            <td style="padding:30px; text-align:center">
+                <table width="60%" border="0" cellspacing="0" style="margin-top:70px">
+                    <tr>
+                        <td style="width:98px">
+                            <img src="images/IconTexto_WebDev_009.jpg" width="128" height="128" />
+                        </td>
+                        <td style="padding-top:30px">
+                            <font style="font-weight:bold; color:#FF0000">提交成功！等候客服联系</font><br />
+                            <br />
+
+                        </td>
+                    </tr>
+                </table>
+                <h1>&nbsp;</h1></td>
+        </tr>
+    </table>
+</div>
+<jsp:include page="foot.jsp"/>
+</body>
+</html>
